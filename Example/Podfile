@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'QGFileDownloader_Example' do
+  pod 'QGFileDownloader', :path => '../'
+
+  target 'QGFileDownloader_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
