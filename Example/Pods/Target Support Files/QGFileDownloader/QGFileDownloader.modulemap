@@ -1,0 +1,6 @@
+framework module QGFileDownloader {
+  umbrella header "QGFileDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}
